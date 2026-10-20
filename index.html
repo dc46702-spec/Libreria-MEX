@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Librería</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Playfair+Display:wght@700;900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles.css">
+
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+
+    <header>
+        <div class="logo"><span>LITERATURA DE SANGRE MEXICANA</span></div>
+
+        <nav>
+            <a href="#inicio">Inicio</a>
+            <a href="#Libros más Leídos">Libros más Leídos</a>
+            <button id="boton-carrito">🛒 <span id="contador">0</span></button>
+        </nav>
+
+        <div id="carrito">
+            <h3>Tu carrito</h3>
+            <ul id="lista"></ul>
+            <p class="total">Total: $<span id="total">0</span></p>
+            <button id="vaciar" class="boton">Vaciar carrito</button>
+        </div>
+    </header>
+
+
+    <!-- ========== 2. PORTADA ========== -->
+    <section id="inicio" class="portada">
+        <h1><span>Libros de Orgullo Mexicano</span></h1>
+        <p>El mundo aplaude lo que México lleva siglos sabiendo contar.</p>
+        <a href="#Libros" class="boton">Ver  Recomendaciones</a>
+    </section>
+
+
+    <!-- ========== 3. PELÍCULAS ========== -->
+    <section id="Libros Recomendación">
+        <h2><span>Libros Más Leídos</span></h2>
+
+        <div class="contenedor-tarjetas">
+
+            <!-- Tarjeta 1 -->
+            <div class="tarjeta" data-titulo="Sombras detrás de la ventana" data-precio="299">
+                <img src="img/libro 1.png" alt="Sombras detrás de la ventana">
+                <h3>Sombras detrás de la ventana</h3>
+                <p class="datos">Eduardo Antonio Parra</p>
+                <p>Relatos en donde personajes frecuentemente invisibilizados o excluidos se vuelven protagonistas inadvertidamente.</p>
+                <p class="precio">$299</p>
+                <button class="agregar">Agregar</button>
+            </div>
+
+            <!-- Tarjeta 2 -->
+            <div class="tarjeta" data-titulo="La torre y el jardín" data-precio="349">
+                <img src="img/libro 2.jpeg" alt="La torre y el jardín">
+                <h3>La torre y el jardín</h3>
+                <p class="datos">Alberto Chimal</p>
+                <p>Horacio Kustos y Francisco Molinar despiertan prisioneros en “El Brincadero”, un burdel donde ocurren fenómenos extraños: desde voces en las paredes y dimensiones alternas hasta mujeres con misiones ocultas.</p>
+                <p class="precio">$349</p>
+                <button class="agregar">Agregar</button>
+            </div>
+
+            <!-- Tarjeta 3 -->
+            <div class="tarjeta" data-titulo="Campeón Gabacho" data-precio="329">
+                <img src="img/libro 3.png" alt="Temporada de Patos">
+                <h3>Campeón Gabacho</h3>
+                <p class="datos">Aura Xilonen</p>
+                <p>A solas un fin de semana tranquilo, Flama y Moko, dos mejores amigos, de catorce años, se entretienen con refrescos, revistas para adultos y videojuegos.</p>
+                <p class="precio">$329</p>
+                <button class="agregar">Agregar</button>
+            </div>
+
+            <!-- Tarjeta 4 -->
+            <div class="tarjeta" data-titulo="Temporada de Huracanes" data-precio="399">
+                <img src="img/libro 4.png" alt="Amores Perros">
+                <h3>Temporada de Huracanes</h3>
+                <p class="datos">Fernanda Melchor</p>
+                <p>Un grupo de niños encuentra un cadáver flotando en las aguas del canal de riego cercano a la ranchería del pueblo ficticio La Matosa.</p>
+                <p class="precio">$399</p>
+                <button class="agregar">Agregar</button>
+            </div>
+
+            <!-- Tarjeta 5 -->
+            <div class="tarjeta" data-titulo="El invencible verano de Liliana" data-precio="429">
+                <img src="img/libro 5.png" alt="Y tu mamá también">
+                <h3>El invencible verano de Liliana</h3>
+                <p class="datos">Cristina Rivera Garza</p>
+                <p>Los adolescentes Tenoch y Julio conocen a la seductora Luisa y se la llevan a hacer un viaje a la playa donde tratarán de conquistarla o lo que pase en el camino.</p>
+                <p class="precio">$429</p>
+                <button class="agregar">Agregar</button>
+            </div>
+
+            <!-- ✏️ RETO: copia una tarjeta completa, pégala aquí abajo
+                 y cámbiala por tu película favorita. -->
+
+        </div>
+    </section>
+
+
+    <!-- ========== 5. PIE DE PÁGINA ========== -->
+    <footer>
+        <p>Orgullo Lector Mexa © 2026</p>
+    </footer>
+
+</body>
+
+</html>
